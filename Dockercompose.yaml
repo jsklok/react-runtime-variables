@@ -1,0 +1,10 @@
+version: '2'
+services:
+  
+  #
+  aap:
+    image: react-runtime-variables:latest
+    ports:
+      - 8000:80
+    environment:    
+      - REACT_APP_ENV=testing
